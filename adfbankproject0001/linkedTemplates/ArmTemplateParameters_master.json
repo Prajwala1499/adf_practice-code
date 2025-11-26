@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfbankproject0001"
+		},
+		"LS_BULK_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_EXCEL_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_EXCEL_PARQUET_SINK_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_CSVBULK_accountKey": {
+			"value": ""
+		},
+		"LS_BULK_CSV_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkload0001.dfs.core.windows.net"
+		},
+		"LS_EXCEL_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevbulkload0001.dfs.core.windows.net/"
+		},
+		"LS_EXCEL_PARQUET_SINK_properties_typeProperties_url": {
+			"value": "https://adlsdevbankproject0001.dfs.core.windows.net/"
+		},
+		"LS_SINK_CSVBULK_properties_typeProperties_url": {
+			"value": "https://adlsdevbankproject0001.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
