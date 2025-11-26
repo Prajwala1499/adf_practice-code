@@ -1,0 +1,26 @@
+{
+	"name": "TR_BULK_CSV_LOAD",
+	"properties": {
+		"description": "This trigger is just for practicing ",
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_BULK_CSV",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 15,
+				"startTime": "2025-11-11T05:43:00",
+				"endTime": "2025-11-30T05:43:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

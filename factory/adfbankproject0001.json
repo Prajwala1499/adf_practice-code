@@ -1,0 +1,9 @@
+{
+	"name": "adfbankproject0001",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "adea7499-3a2b-410d-a2d6-d07332f5f7c9",
+		"tenantId": "c05ce7bf-439b-4ebd-961e-410ebe68a563"
+	}
+}
